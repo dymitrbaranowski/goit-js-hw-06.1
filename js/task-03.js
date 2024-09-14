@@ -19,8 +19,11 @@ console.log(gallery);
 const items = images
   .map(
     ({ url, alt }) => `
-<li class="item js-item"><img
-src=${url}alt=${alt} width="300", heigth="300"></li>
+ <li class="item js-item">
+          <div class="card-thumb">
+            <img src="${url}alt" alt="${alt}" width="300" , heigth="300" />
+          </div>
+        </li>
 `
   )
   .join("");
