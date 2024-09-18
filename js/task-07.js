@@ -7,7 +7,7 @@ input.addEventListener("input", onInputChange);
 
 function onInputChange(evt) {
   //console.log(evt.currentTarget.value);
-  const valueEl = evt.currentTarget.value;
+  const valueEl = evt.currentTarget.value * 3;
   //   console.log(valueEl);
   span.style.fontSize = `${valueEl}px`;
 }
