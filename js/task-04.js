@@ -9,6 +9,8 @@ const decrementBtn = container.firstElementChild;
 const incrementBtn = container.lastElementChild;
 // console.log(incrementBtn);
 
+//Var-1--------------------------------------
+
 decrementBtn.addEventListener("click", onDecrement);
 incrementBtn.addEventListener("click", onIncrement);
 
@@ -23,3 +25,13 @@ function onIncrement() {
   counterValue += 1;
   value.textContent = counterValue;
 }
+
+//Var-2----------------------------------------
+
+// decrementBtn.addEventListener("click", handlerCounter);
+// incrementBtn.addEventListener("click", handlerCounter);
+
+// function handlerCounter(evt) {
+//   value.textContent = counterValue +=
+//     evt.currentTarget.dataset.action === "increment" ? 1 : -1;
+// }
